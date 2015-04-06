@@ -83,7 +83,7 @@ class Bezpecnost {
         int i = 0;
         for (char c : output.toCharArray()) {
             outputStringBuilder.append(c);
-            if(++i % 5 == 0 && i < (output.length() - 1)) {
+            if(++i % 5 == 0 && i < (output.length())) {
                 outputStringBuilder.append(' ');
             }
         }
